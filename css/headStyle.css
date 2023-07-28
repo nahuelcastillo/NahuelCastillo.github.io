@@ -9,8 +9,9 @@ header#navbar{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    min-height: 70px;
+    min-height: 70px; 
 }
+
 
 a#imgtop img{
     height: 16vh;

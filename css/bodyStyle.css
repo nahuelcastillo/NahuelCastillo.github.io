@@ -4,18 +4,41 @@
 
 .ResumMi{
     text-align: center;
-    font-size: 2vw;
-    font-weight: 500;
+    font-size: 3vw;
+    font-weight: 600;
+    padding-top: 2vh;
 }
 
 .imgg{
-    border-radius: 15%;
+    border-radius: 50%;
     height: 20vh;
     display: block;
     width: 17vh;
     margin: auto;
 }
 
+
+#logos ul{
+    list-style: none;
+    margin: 0;
+    padding: 3vw;
+}
+
+#logos ul li{
+    display: inline-block;
+}
+
+#skillslogos{
+    background-color: rgba(66, 62, 62, 0.459);
+    border-radius: 10%;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+img.sklogo{
+    height: 20vh;
+    padding: 1vh;
+}
 
 /*Esto es para darle un centro a todo*/
 div#global{

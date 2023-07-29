@@ -10,12 +10,13 @@ header#navbar{
     align-items: center;
     padding: 10px;
     min-height: 70px; 
+    
 }
 
 
 a#imgtop img{
-    height: 16vh;
-    width: 16vh;
+    height: 11vh;
+    width: 22vh;
     
 }
 
@@ -26,6 +27,7 @@ a#imgtop img{
     list-style: none;
     margin: 0;
     padding: 3vw;
+    
 }
 
 #menu ul li{

@@ -32,9 +32,6 @@
 
 #skillslogos{
     background-color: rgba(66, 62, 62, 0.459);
-    border-radius: 10%;
-    margin-left: 1vh;
-    margin-right: 1vh;
 }
 
 img.sklogo{
@@ -43,18 +40,43 @@ img.sklogo{
 }
 
 /*Esto es para darle un centro a todo*/
-div#global{
-    margin: 0 auto;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .CenterH{
     text-align: center;
 }
 
+/*centrar el video*/
+.video{
+    text-align:center;
+    margin-left: 2vh;
+}
+
+/* darle estilos a los proyectos*/
+.Poryectos{
+    text-align: center;
+    margin: 0;
+}
+
+.Poryectos p{
+    color: white;
+    padding: 1vh;
+}
+
+p a{
+    background-color: rgba(3, 94, 3, 0.801);
+    color: black;
+    text-decoration: none;
+    border: 1px solid #d0d0d0;;
+}
 
 
+/*Darle los backgrou a los proyectos */
+#mygymbackgrou{
+    background-color: rgba(0, 0, 255, 0.562);
+}
+
+#heeroDemo{
+    background-color: rgba(0, 0, 0, 0.466);
+}
 
 #link{
     background-color: rgba(68, 42, 58, 0.308);
@@ -62,7 +84,8 @@ div#global{
 }
 
 
-.Poryectos{
+.estilosH{
+
     text-align: center;
     color: black;
 }
@@ -76,19 +99,11 @@ div#global{
     
 }
 
-form{    
-    height: 250px; 
-    border: 3px solid #555;
-}
-
 hr{
     max-width: 50%;
 }
 
-#MyGym{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 

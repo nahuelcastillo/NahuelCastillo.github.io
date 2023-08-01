@@ -1,0 +1,23 @@
+/* Esto es para poder modificar als imagenes y hacer un silder */
+
+.silder{
+    margin: auto;
+    aspect-ratio: 1280 / 720;
+    width: 100vh;
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: mandatory;
+}
+
+.silder img{
+    width: auto;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}
+

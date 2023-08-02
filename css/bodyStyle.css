@@ -54,12 +54,15 @@ img.sklogo{
 .Poryectos{
     text-align: center;
     margin: 0;
+    margin: 2%;
+    border-radius: 2%;
 }
 
 .Poryectos p{
     color: white;
     padding: 1vh;
 }
+
 
 p a{
     background-color: rgba(3, 94, 3, 0.801);
@@ -78,32 +81,105 @@ p a{
     background-color: rgba(0, 0, 0, 0.466);
 }
 
-#link{
-    background-color: rgba(68, 42, 58, 0.308);
-    margin-right: 80%;
-}
-
 
 .estilosH{
-
     text-align: center;
     color: black;
 }
 
 .tableEd{
-
     background-color: rgba(128, 128, 128, 0.582);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
+/*parde de contacto*/
+#form{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    display: flex;
+    margin: auto;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0, .8);
+    margin-bottom: 2vh;
+}
+
+#fromtitle{
+    background-color: rgb(67, 160, 67);
+    width: 400px;
+    margin: auto;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0, .8);
+    text-align: center;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+
+#form form{
+    width: 100%;
+    padding: .8rem;
+    overflow: hidden;
+}
+
+
+#form label, #form input, #form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+#form input:not([type='submit']), #form textarea{
+margin-bottom: 10px;
+font-size: 20px;
+outline: none;
+color: gray;
+}
+
+#form input[type='submit']{
+    padding: 10px;
+    border: none;
+    background-color: rgb(67, 160, 67);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/*pie de la pagina*/
+#footer{
+    background-color: rgba(3, 59, 55, 0.664);
+    width: auto;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*social midia*/
+
+.socialmidia{
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/*etiquetas en particular*/
 hr{
     max-width: 50%;
 }
 
+h2{
+    padding-top: 2vh;
+    font-family: fantasy;
+    font-size: 5vh;
+}
 
+h3{
+    font-size: 3vh;
+}
 
 
 

@@ -2,17 +2,28 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    background-color: #212121;
 }
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
 
 header#navbar{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     padding: 10px;
     min-height: 70px; 
     
 }
 
+header h1{
+  color: white;
+}
 
 a#imgtop img{
     height: 11vh;
@@ -20,43 +31,6 @@ a#imgtop img{
     
 }
 
-#menu{
-    float: right;}
-
-#menu ul{
-    list-style: none;
-    margin: 0;
-    padding: 3vw;
-    
-}
-
-#menu ul li{
-    display: inline-block;
-}
-
-#menu ul li a{
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 2vw;
-    font-size: 2vh;
-    
-}
-
-#menu ul li a:hover{
-    color: grey;
-}
-
-#menu ul li a#cont{
-    background-color: rgba(3, 94, 3, 0.801);
-    color: white;
-    border-radius: 20%;
-}
-
-#menu ul li a#cont:hover{
-    color: black;
-    transition: all 0.3s;
-}
 
 @media (max-width:700px){
     header{
@@ -67,3 +41,61 @@ a#imgtop img{
         padding: 10px 0;
     }
 }
+
+
+/* esto es para el estilo de los botones */
+
+#menu{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+
+#menu ul li{
+    list-style:none;
+    padding: 5vh;
+}
+
+button {
+    padding: 0.1em 0.25em;
+    width: 23.5em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+  }
+  
+  button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 15em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+  button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  button span:not(hover) {
+    transition: all 1s;
+  }
+  
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+

@@ -1,0 +1,145 @@
+.estilosH{
+    text-align: center;
+    font-size: 9vh;
+    text-decoration: solid;
+    color: white;
+}
+
+#ccDiv{
+    display: flex;
+    justify-content: center;
+}
+
+/*esto modifica las cartas de proyectos*/
+.cardP {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background:  rgb(3, 59, 55);
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+   }
+   
+   .cardP-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(3, 59, 55);
+    color: #f7f7f7;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    border: 2px solid #c3c6ce;
+   }
+   
+   .text-body {
+    color: rgb(255, 255, 255);
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 2vh;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+   }
+   
+   /*Hover*/
+   .cardP:hover {
+    border-color: #ffffff;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .cardP:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+
+
+   /*esto es para los proyectos */
+
+   .Poryectos{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10vh;
+    background-color: rgba(255, 255, 255, 0.377);
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+   }
+
+   .Poryectos h2{
+    color: white;
+    text-decoration: solid;
+    font-size: 8vh;
+    padding-top: 3vh;
+   }
+
+   .CenterH{
+    font-size: 5dvh;
+   }
+
+   .video{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 15px;
+    margin-bottom: 2vh;
+   }
+
+
+   /* botones de los proyectos */
+   .abut {
+    background: #fff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  }
+
+  
+  .abut::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: rgb(20, 20, 20);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .abut:hover {
+    color: #fff;
+  }
+  
+  .abut:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }

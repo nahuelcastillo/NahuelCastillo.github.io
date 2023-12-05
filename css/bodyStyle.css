@@ -1,22 +1,42 @@
+/*Esto es para el top de la pagina */
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #212121 !important; 
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+header#navbar{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  min-height: 70px; 
+}
+
+header h1{
+color: white;
+}
+
+a#imgtop img{
+  height: 11vh;
+  width: 22vh;
+}
 
 /*pie de la pagina*/
 #divfooter{
-    background-color: rgba(3, 59, 55, 0.664);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: rgba(3, 59, 55, 0.664) !important;
     padding: 2vh;
 }
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-  }
-
+  
 /*social midia*/
-
 .socialmidia a{
     text-align: center;
     font-size: 25px;
@@ -24,6 +44,8 @@
     border-radius: 50%;
     padding: 18px;
     box-shadow: 0px 5px 10px rgb(0, 0, .35);
+    text-decoration: none !important;
+    color: white !important;
 }
 
 #socialbordLI:hover{
@@ -62,8 +84,8 @@
   }
 
   #imggAboutMe{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    width: 20vh;
+    width: 15%;
+    height: 15%;
   }
 
   #skillslogos h1{
@@ -92,7 +114,7 @@
 
   /* Dentro del aboutme se modifica el contactame */
 
-  .container{
+  .containerr{
     text-align: center;
     color: white;
     margin: auto;
@@ -104,11 +126,11 @@
 
   }
 
-  .container div{
+  .containerr div{
     padding: 2px;
   }
 
-  .container #btt{
+  .containerr #btt{
     padding: 10px;
   }
 

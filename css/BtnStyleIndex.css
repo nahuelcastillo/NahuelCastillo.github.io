@@ -1,36 +1,3 @@
-/*Esto es para el top de la pagina */
-body{
-    font-family: sans-serif;
-    margin: 0;
-    background-color: #212121;
-}
-html {
-    min-height: 100%;
-    position: relative;
-  }
-  body {
-    margin: 0;
-    margin-bottom: 40px;
-  }
-
-header#navbar{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    min-height: 70px; 
-    
-}
-
-header h1{
-  color: white;
-}
-
-a#imgtop img{
-    height: 11vh;
-    width: 22vh;
-    
-}
-
 
 @media (max-width:700px){
     header{
@@ -40,8 +7,15 @@ a#imgtop img{
     nav{
         padding: 10px 0;
     }
-}
 
+    button{
+      width: 15em !important;
+   }
+
+   button span{
+    width: 9.5em !important;
+  }
+}
 
 /* esto es para el estilo de los botones */
 
@@ -59,8 +33,7 @@ a#imgtop img{
 
 button {
     padding: 0.1em 0.25em;
-    width: 23.5em;
-    height: 4.2em;
+    width: 23em;
     background-color: #212121;
     border: 0.08em solid #fff;
     border-radius: 0.3em;
@@ -74,7 +47,7 @@ button {
     align-items: center;
     bottom: 0.4em;
     width: 15em;
-    height: 2.5em;
+    height: 2.2em;
     background-color: #212121;
     border-radius: 0.2em;
     font-size: 1.5em;
@@ -95,7 +68,7 @@ button {
   
 
   a{
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
   }
 

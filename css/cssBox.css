@@ -1,31 +1,7 @@
-/* Esto es para poder modificar als imagenes y hacer un silder */
-
-.silder{
-    margin: auto;
-    aspect-ratio: 1280 / 720;
-    width: 100vh;
-    position: relative;
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    overscroll-behavior-inline: contain;
-    scroll-snap-type: mandatory;
-}
-
-.silder img{
-    width: auto;
-    left: 0;
-    position: sticky;
-    object-fit: cover;
-    border-radius: 5px;
-    scroll-snap-align: center;
-}
-
-
 /*esto es para el aboutMe el codigo css*/
 
 .code-editor {
-    max-width: 300px;
+    max-width: 100%;
     background-color: #1d1e22;
     box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.5);
     border-radius: 8px;

@@ -90,7 +90,7 @@ a#imgtop img{
 
   #skillslogos h1{
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 0);
   }
 
   #logos{
@@ -144,3 +144,14 @@ a#imgtop img{
   padding: 2vh;
 }
 
+
+.offcanvas{
+background-color: rgba(3, 59, 55, 0.664) !important;
+}
+
+@media (min-width: 547px){
+.col-md-6 {
+    flex: 0 0 auto !important;
+    width: auto !important;
+}
+}

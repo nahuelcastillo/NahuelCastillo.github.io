@@ -79,3 +79,9 @@ a{
 h2{
   margin: 2% !important;
 }
+
+@media (max-width: 767px){
+  .container, .container-sm {
+    max-width: 40px !important;
+}
+}

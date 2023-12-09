@@ -67,25 +67,11 @@ a#imgtop img{
  }
 
   /* esto modifica el aboutme */
-  
-  .divcenter{
-    display: flex;
-    justify-content: center;
-    margin: 2vh;
-  }
 
-  .divcenter div{
-    color: white;
-  }
 
   #apt p{
     text-decoration: solid;
     font-size: 5vh;
-  }
-
-  #imggAboutMe{
-    width: 15%;
-    height: 15%;
   }
 
   #skillslogos h1{

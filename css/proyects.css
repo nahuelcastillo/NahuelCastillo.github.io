@@ -83,5 +83,18 @@ h2{
 @media (max-width: 767px){
   .container, .container-sm {
     max-width: 40px !important;
+  }
+  #deldsplay{
+    display: block;
+  }
 }
+
+.prueba{
+    --bs-gutter-x: 5.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
 }

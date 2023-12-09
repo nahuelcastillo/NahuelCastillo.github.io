@@ -16,13 +16,13 @@ window.onload = function(){
         div.innerHTML = ` 
         <div class="Poryectos" id="heeroDemo">
         <h2 class="text-center fs-1 text-light">Dungeon Heero Demo</h2>
-        <div class="container text-center">
-            <div class="row">
+        <div class="prueba text-center">
+            <div class="row" id="deldsplay">
               <div class="col">
                 <p class="text-light fs-5 text">Story mode game</p>
                 <p class="text-light fs-5 text">game where you embody the life of a villager who returns to his town after years and sees that they have been attacked and robbed by evil beings,CAN YOU DEFEND HIM?</p>
                 <P class="text-light">Game created with Unity and C#, sprite resources and images from the internet </P>
-                <p class="text-light"> Download the demo of the game here -> <button class="btn btn-secondary btn-lg"> <a class="abut"href="https://github.com/NahuelCastillo/DugeonHero_Demo" target="_blank"> Click aqui </a></button></p>
+                <p class="text-light"> Download the demo of the game here <button style="margin: 3%"> <a class="abut" href="https://github.com/NahuelCastillo/DugeonHero_Demo" target="_blank"> <span>  Click aqui </span> </a></button></p>
               </div>
               <div class="col">
               <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
@@ -36,12 +36,13 @@ window.onload = function(){
                 <div class="carousel-item">
                   <img src="/Img/Proyectos/hero3.png" class="d-block w-100" alt="...">
                    </div>
-             </div>
-            </div>
-            </div>
+                  </div>
+                </div>
+                </div>
               </div>
             </div>
           </div>
+          <hr class="text-light">
         <div>
         <h3 class="text-center text-light fs-2">Demo demonstrative</h3>
         <div class="divcenter">
@@ -67,8 +68,8 @@ window.onload = function(){
         div.innerHTML = ` 
         <div class="Poryectos"  id="mygymbackgrou">
         <h2 class="text-center fs-1 text-light">MyGym</h2>
-        <div class="container text-center">
-            <div class="row">
+          <div class="prueba text-center">
+            <div class="row" id="deldsplay">
               <div class="col">
                 <p class="text-light fs-5 text">Website for managing gyms</p>
                 <p class="text-light fs-5 text">Web project created from scratch using Python (Flask), HTML, CSS, and JavaScript</p>
@@ -77,10 +78,10 @@ window.onload = function(){
                 <div class="row">
                       <div class="col">
                       <a>Link to the code without Node.js</a>
-                      <button class="btn btn-secondary btn-lg"> <a class="abut" href="https://github.com/NahuelCastillo/MyGym" target="_blank"> Code </a></button>
+                      <button style="margin: 3%"> <a class="abut" href="https://github.com/NahuelCastillo/MyGym" target="_blank"> <span>  Code </span> </a></button>
                       </div>
                       <div class="col">
-                      <p class="text-light"> Page resource link, market analysis, SWOT analysis, presentation<button class="btn btn-secondary btn-lg"> <a class="abut" href="https://drive.google.com/drive/folders/1Qo0Z3hl5tKtxepdUz0n-G0eRwjzSjkuS?usp=sharing" target="_blank"> Click aqui </a></button></p>
+                      <p class="text-light"> Page resource link, market analysis, SWOT analysis, presentation <button style="margin: 3%"> <a class="abut" href="https://drive.google.com/drive/folders/1Qo0Z3hl5tKtxepdUz0n-G0eRwjzSjkuS?usp=sharing" target="_blank"> <span> Click aqui </span> </a></button> </p>
                       </div>
                       </div>   
               </div>
@@ -101,6 +102,7 @@ window.onload = function(){
               </div>
             </div>
           </div>
+          <hr class="text-light">
         <div>
         <h3 class="text-center text-light fs-2">Demo demonstrative</h3>
         <div class="divcenter">
@@ -123,10 +125,10 @@ window.onload = function(){
                    elementos[elementos.length-1].remove()
                }
               div.innerHTML = ` 
-              <div class="Poryectos">
+            <div class="Poryectos">
               <h2 class="text-center fs-1 text-light">E-mercado</h2>
-              <div class="container text-center">
-                  <div class="row">
+              <div class="prueba text-center">
+                  <div class="row" id="deldsplay">
                     <div class="col">
                       <p class="text-light fs-5 text">Website to sell or buy products</p>
                       <p class="text-light fs-5 text">Web project created from scratch using node.js, HTML, CSS, Bootstrap and JavaScripts</p>
@@ -135,14 +137,16 @@ window.onload = function(){
                       <div class="row">
                       <div class="col">
                       <a>Link to the code without Node.js</a>
-                      <button class="btn btn-secondary btn-lg"> <a class="abut" href="https://github.com/nahuelcastillo/e-coomer" target="_blank"> Code </a></button>
+                      <button style="margin: 3%"> <a class="abut" href="https://github.com/nahuelcastillo/e-coomer" target="_blank"> <span>  Code </span></a></button>
                       </div>
                       <div class="col">
                       <a>Link to the code without Node.js</a>
-                     <button class="btn btn-secondary btn-lg"> <a class="abut" href="https://github.com/nahuelcastillo/e-comer_Node.js" target="_blank"> code + Node.js </a></button> 
+                      <button style="margin: 3%"> <a class="abut" href="https://github.com/nahuelcastillo/e-comer_Node.js" target="_blank"> <span> More info </span> </a></button>  
                       </div>
-                      </div>   
-                      <button class="btn btn-secondary btn-lg"> <a class="abut" href="https://nahuelcastillo.github.io/e-coomer" target="_blank"> Page </a></button>           
+                      </div>
+                      <div>
+                      <button style="margin: 3%"> <a class="abut" href="https://nahuelcastillo.github.io/e-coomer" target="_blank"> <span> Page </span> </a></button>  
+                      </div>
                     </div>
                     <div class="col">
                       <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
@@ -173,10 +177,11 @@ window.onload = function(){
                     </div>
                   </div>
                 </div>
+                <hr class="text-light">
               <div>
               <h3 class="text-center text-light fs-2">Demo demonstrative</h3>
               <div class="divcenter">
-              <iframe class="object-fit-scale border rounded" autoplay src="https://drive.google.com/file/d/1jUbkJ-qFYrNOklLhyQatIgo14D_kEatx/preview" width="1280" height="720"></iframe>
+              <iframe class="object-fit-scale border rounded" autoplay src="https://drive.google.com/file/d/1jUbkJ-qFYrNOklLhyQatIgo14D_kEatx/preview" width="720" height="480"></iframe>
               </div>
               </div>
               </div>`

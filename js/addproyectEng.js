@@ -14,39 +14,41 @@ window.onload = function(){
             elementos[elementos.length-1].remove()
         }
         div.innerHTML = ` 
-        <div class="Projects" id="heroDemo">
-        <h2 class="text-center fs-1 text-light">Demo de Dungeon Heero</h2>
+        <div class="Poryectos" id="heeroDemo">
+        <h2 class="text-center fs-1 text-light">Dungeon Heero Demo</h2>
         <div class="prueba text-center">
-        <div class="row" id="display">
-            <div class="col">
-                <p class="text-light fs-5 text">Juego con modo historia</p>
-                <p class="text-light fs-5 text">Juego en el que encarnas la vida de un aldeano que regresa a su pueblo después de años y descubre que ha sido atacado y saqueado por seres malvados, ¿PODRÁS DEFENDERLO?</p>
-                <p class="text-light">Juego creado con Unity y C#, recursos de sprites e imágenes obtenidos de internet</p>
-                <p class="text-light">Descarga la demo del juego aquí <button style="margin: 3%"><a class="abut" href="https://github.com/NahuelCastillo/DugeonHero_Demo" target="_blank"><span>Click aquí</span></a></button></p>
-            </div>
-            <div class="col">
-                <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
+            <div class="row" id="deldsplay">
+              <div class="col">
+                <p class="text-light fs-5 text">Story mode game</p>
+                <p class="text-light fs-5 text">game where you embody the life of a villager who returns to his town after years and sees that they have been attacked and robbed by evil beings,CAN YOU DEFEND HIM?</p>
+                <P class="text-light">Game created with Unity and C#, sprite resources and images from the internet </P>
+                <p class="text-light"> Download the demo of the game here <button style="margin: 3%"> <a class="abut" href="https://github.com/NahuelCastillo/DugeonHero_Demo" target="_blank"> <span>  Click aqui </span> </a></button></p>
+              </div>
+              <div class="col">
+              <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="/Img/Proyectos/hero1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-item active">
+                    <img src="/Img/Proyectos/hero1.png" class="d-block w-100" alt="...">
+                  </div>
+                <div class="carousel-item">
+                    <img src="/Img/Proyectos/hero2.png" class="d-block w-100" alt="...">
+                  </div>
+                <div class="carousel-item">
+                  <img src="/Img/Proyectos/hero3.png" class="d-block w-100" alt="...">
+                   </div>
+                  </div>
                 </div>
-              <div class="carousel-item">
-                  <img src="/Img/Proyectos/hero2.png" class="d-block w-100" alt="...">
                 </div>
-              <div class="carousel-item">
-                <img src="/Img/Proyectos/hero3.png" class="d-block w-100" alt="...">
-                 </div>
-                </div>
+              </div>
             </div>
-        </div>
           </div>
-        <hr class="text-light">
-         <div>
-        <h3 class="text-center text-light fs-2">Demostración de la demo</h3>
+          <hr class="text-light">
+        <div>
+        <h3 class="text-center text-light fs-2">Demo demonstrative</h3>
         <div class="divcenter">
-            <iframe class="object-fit-scale border rounded" autoplay src="https://drive.google.com/file/d/1NEYb4Zm1AikODpWFh9saFBZB8GaYgjpL/preview" width="720" height="480"></iframe>
+        <iframe class="object-fit-scale border rounded" autoplay src="https://drive.google.com/file/d/1NEYb4Zm1AikODpWFh9saFBZB8GaYgjpL/preview" width="720" height="480"></iframe>
         </div>
-         </div>
+        </div>
         </div>
         `
         var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleSlidesOnly4'), {
@@ -69,19 +71,19 @@ window.onload = function(){
           <div class="prueba text-center">
             <div class="row" id="deldsplay">
               <div class="col">
-              <p class="text-light fs-5 text">Sitio web para la gestión de gimnasios</p>
-              <p class="text-light fs-5 text">Proyecto web creado desde cero utilizando Python (Flask), HTML, CSS y JavaScript</p>
-              <p class="text-light">Esta página fue creada para gestionar gimnasios desde su creación o búsqueda dentro de un entorno estipulado</p>
-              
-              <div class="row">
-                  <div class="col">
-                      <a>Enlace al código</a>
-                      <button style="margin: 3%"><a class="abut" href="https://github.com/NahuelCastillo/MyGym" target="_blank"><span>Código</span></a></button>
-                  </div>
-                  <div class="col">
-                      <p class="text-light">Enlace a recursos de la página, análisis de mercado, análisis SWOT, presentación <button style="margin: 3%"><a class="abut" href="https://drive.google.com/drive/folders/1Qo0Z3hl5tKtxepdUz0n-G0eRwjzSjkuS?usp=sharing" target="_blank"><span>Click aquí</span></a></button></p>
-                  </div>
-              </div> 
+                <p class="text-light fs-5 text">Website for managing gyms</p>
+                <p class="text-light fs-5 text">Web project created from scratch using Python (Flask), HTML, CSS, and JavaScript</p>
+                <P class="text-light">This page was created to manage gyms from their creation or search within a stipulated environment</P>
+
+                <div class="row">
+                      <div class="col">
+                      <a>Link to the code without Node.js</a>
+                      <button style="margin: 3%"> <a class="abut" href="https://github.com/NahuelCastillo/MyGym" target="_blank"> <span>  Code </span> </a></button>
+                      </div>
+                      <div class="col">
+                      <p class="text-light"> Page resource link, market analysis, SWOT analysis, presentation <button style="margin: 3%"> <a class="abut" href="https://drive.google.com/drive/folders/1Qo0Z3hl5tKtxepdUz0n-G0eRwjzSjkuS?usp=sharing" target="_blank"> <span> Click aqui </span> </a></button> </p>
+                      </div>
+                      </div>   
               </div>
               <div class="col">
                 <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
@@ -98,18 +100,16 @@ window.onload = function(){
                    </div>
                   </div>
               </div>
+            </div>
           </div>
           <hr class="text-light">
         <div>
-        <h3 class="text-center text-light fs-2">Desmostracion de la demo</h3>
+        <h3 class="text-center text-light fs-2">Demo demonstrative</h3>
         <div class="divcenter">
         <iframe class="object-fit-scale border rounded" autoplay src="https://drive.google.com/file/d/1Y17mL03VG8r1IlMGyMYF0m64wNY5hxUA/preview" width="720" height="480"></iframe>
         </div>
         </div>
-        </div>
-        </div>
-
-        `
+        </div>`
         var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleSlidesOnly4'), {
           interval: 2000
         });
@@ -129,25 +129,25 @@ window.onload = function(){
               <h2 class="text-center fs-1 text-light">E-mercado</h2>
               <div class="prueba text-center">
                   <div class="row" id="deldsplay">
-                  <div class="col">
-                  <p class="text-light fs-5 text">Sitio web para comprar o vender productos</p>
-                  <p class="text-light fs-5 text">Proyecto web creado desde cero utilizando node.js, HTML, CSS, Bootstrap y JavaScript</p>
-                  <p class="text-light">Esta página fue creada para comprar o vender objetos de cualquier tipo, en la cual se utilizaron APIs y una base de datos</p>
-              
-                  <div class="row">
+                    <div class="col">
+                      <p class="text-light fs-5 text">Website to sell or buy products</p>
+                      <p class="text-light fs-5 text">Web project created from scratch using node.js, HTML, CSS, Bootstrap and JavaScripts</p>
+                      <P class="text-light">This page was created for buying or selling objects of any kind, in which APIs and a database were used</P>
+
+                      <div class="row">
                       <div class="col">
-                          <a>Enlace al código sin Node.js</a>
-                          <button style="margin: 3%"><a class="abut" href="https://github.com/nahuelcastillo/e-coomer" target="_blank"><span>Código</span></a></button>
+                      <a>Link to the code without Node.js</a>
+                      <button style="margin: 3%"> <a class="abut" href="https://github.com/nahuelcastillo/e-coomer" target="_blank"> <span>  Code </span></a></button>
                       </div>
                       <div class="col">
-                          <a>Enlace al código con Node.js</a>
-                          <button style="margin: 3%"><a class="abut" href="https://github.com/nahuelcastillo/e-comer_Node.js" target="_blank"><span>Más información</span></a></button>
+                      <a>Link to the code without Node.js</a>
+                      <button style="margin: 3%"> <a class="abut" href="https://github.com/nahuelcastillo/e-comer_Node.js" target="_blank"> <span> More info </span> </a></button>  
                       </div>
-                  </div>
-                  <div>
-                      <button style="margin: 3%"><a class="abut" href="https://nahuelcastillo.github.io/e-coomer" target="_blank"><span>Página</span></a></button>
-                  </div>
-              </div>
+                      </div>
+                      <div>
+                      <button style="margin: 3%"> <a class="abut" href="https://nahuelcastillo.github.io/e-coomer" target="_blank"> <span> Page </span> </a></button>  
+                      </div>
+                    </div>
                     <div class="col">
                       <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
                           <div class="carousel-inner">
@@ -176,13 +176,12 @@ window.onload = function(){
                         </div>
                     </div>
                   </div>
-
+                </div>
                 <hr class="text-light">
               <div>
               <h3 class="text-center text-light fs-2">Demo demonstrative</h3>
               <div class="divcenter">
               <iframe class="object-fit-scale border rounded" autoplay src="https://drive.google.com/file/d/1jUbkJ-qFYrNOklLhyQatIgo14D_kEatx/preview" width="720" height="480"></iframe>
-              </div>
               </div>
               </div>
               </div>`

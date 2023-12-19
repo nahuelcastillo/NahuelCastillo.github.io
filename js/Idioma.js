@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function(){
     break;
     case null:
       $(document).ready(function(){
-       $('#miModal').modal('show');
+       $('#ModalLeng').modal('show');
       });
     break;
   }

@@ -15,7 +15,7 @@ window.onload = function(){
         }
         div.innerHTML = ` 
         <div class="Poryectos" id="heeroDemo">
-        <h2 class="text-center fs-1 text-light">Dungeon Heero Demo</h2>
+        <h2 class="text-center fs-1 text-light" id="tittle">Dungeon Heero Demo</h2>
         <div class="prueba text-center">
             <div class="row" id="deldsplay">
               <div class="col">
@@ -55,6 +55,9 @@ window.onload = function(){
           interval: 2000
         });
 
+        const target = document.getElementById('tittle');
+                // Desplazamos la vista hasta el elemento objetivo
+               target.scrollIntoView({ behavior: 'smooth' });
         })}
         
     /*Agrega todo lo del proyecto mygym*/ 
@@ -67,7 +70,7 @@ window.onload = function(){
          }
         div.innerHTML = ` 
         <div class="Poryectos"  id="mygymbackgrou">
-        <h2 class="text-center fs-1 text-light">MyGym</h2>
+        <h2 class="text-center fs-1 text-light" id="tittle">MyGym</h2>
           <div class="prueba text-center">
             <div class="row" id="deldsplay">
               <div class="col">
@@ -113,6 +116,9 @@ window.onload = function(){
         var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleSlidesOnly4'), {
           interval: 2000
         });
+        const target = document.getElementById('tittle');
+                // Desplazamos la vista hasta el elemento objetivo
+               target.scrollIntoView({ behavior: 'smooth' });
         });}
 
 
@@ -126,7 +132,7 @@ window.onload = function(){
                }
               div.innerHTML = ` 
             <div class="Poryectos">
-              <h2 class="text-center fs-1 text-light">E-mercado</h2>
+              <h2 class="text-center fs-1 text-light" id="tittle">E-mercado</h2>
               <div class="prueba text-center">
                   <div class="row" id="deldsplay">
                     <div class="col">
@@ -188,6 +194,9 @@ window.onload = function(){
               var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleSlidesOnly4'), {
                 interval: 2000
               });
+              const target = document.getElementById('tittle');
+                // Desplazamos la vista hasta el elemento objetivo
+               target.scrollIntoView({ behavior: 'smooth' });
               });}
 
 

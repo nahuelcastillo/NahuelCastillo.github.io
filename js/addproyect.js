@@ -3,6 +3,23 @@ const bttp = document.getElementById("Pyectdung");
 const bttm = document.getElementById("Pyectmygym");
 const btte = document.getElementById("Pyectecomer");
 const bttc = document.getElementById("contact");
+const bttllm = document.getElementById('Pyectlol');
+const bttllmtti = document.getElementById('Pyecttti');
+
+
+if (bttllm) {
+    bttllm.addEventListener('click', function (e) {
+        window.open('https://llmchatdemo.nahuel-castillo44.workers.dev/', '_blank');
+        e.stopPropagation();
+    });
+}
+
+if (bttllmtti) {
+    bttllmtti.addEventListener('click', function (e) {
+        window.open('https://text-to-image-proyecto.nahuel-castillo44.workers.dev/', '_blank');
+        e.stopPropagation();
+    });
+}
 
 window.onload = function(){
     /*Agrega todo lo del proyecto hero*/ 

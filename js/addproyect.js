@@ -5,6 +5,7 @@ const btte = document.getElementById("Pyectecomer");
 const bttc = document.getElementById("contact");
 const bttllm = document.getElementById('Pyectlol');
 const bttllmtti = document.getElementById('Pyecttti');
+const bttShaolin = document.getElementById('PyectShaolin');
 
 
 if (bttllm) {
@@ -20,6 +21,14 @@ if (bttllmtti) {
         e.stopPropagation();
     });
 }
+
+if (bttShaolin) {
+    bttShaolin.addEventListener('click', function (e) {
+        window.open('https://shaolin-chuan-reducto.nahuel-castillo44.workers.dev/', '_blank');
+        e.stopPropagation();
+    });
+}
+
 
 window.onload = function(){
     /*Agrega todo lo del proyecto hero*/ 
